@@ -19,6 +19,10 @@ module.exports = {
     ]
   },
 
+  router: {
+    middleware: ['auth-cookie']
+  },
+
   /*
   ** Customize the progress-bar color
   */
